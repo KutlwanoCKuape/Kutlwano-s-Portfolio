@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kutlwano Kuape - Systems administrator, AI/ML Engineer Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+     <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-white/95 backdrop-blur-sm z-50 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center space-x-2">
+                    <div class="w-10 h-10 ai-gradient rounded-lg flex items-center justify-center text-white font-bold text-lg">
+                        KK
+                    </div>
+                    <span class="text-xl font-bold text-gray-800">Kutlwano Kuape</span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="nav-link text-gray-700 hover:text-indigo-600">Home</a>
+                    <a href="#about" class="nav-link text-gray-700 hover:text-indigo-600">About</a>
+                    <a href="#skills" class="nav-link text-gray-700 hover:text-indigo-600">Skills</a>
+                    <a href="#projects" class="nav-link text-gray-700 hover:text-indigo-600">Projects</a>
+                    <a href="#experience" class="nav-link text-gray-700 hover:text-indigo-600">Experience</a>
+                    <a href="#presentation" class="nav-link text-gray-700 hover:text-indigo-600">Showcase</a>
+                    <a href="#contact" class="nav-link text-gray-700 hover:text-indigo-600">Contact</a>
+                </div>
+                <button id="mobile-menu-btn" class="md:hidden text-gray-700">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+            <div class="px-4 py-2 space-y-2">
+                <a href="#home" class="block py-2 text-gray-700">Home</a>
+                <a href="#about" class="block py-2 text-gray-700">About</a>
+                <a href="#skills" class="block py-2 text-gray-700">Skills</a>
+                <a href="#projects" class="block py-2 text-gray-700">Projects</a>
+                <a href="#experience" class="block py-2 text-gray-700">Experience</a>
+                <a href="#presentation" class="block py-2 text-gray-700">Showcase</a>
+                <a href="#contact" class="block py-2 text-gray-700">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="ai-gradient min-h-screen flex items-center justify-center text-white relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute top-20 left-20 w-32 h-32 border border-white/30 rounded-full"></div>
+            <div class="absolute top-40 right-32 w-24 h-24 border border-white/20 rounded-full"></div>
+            <div class="absolute bottom-32 left-1/3 w-40 h-40 border border-white/20 rounded-full"></div>
+        </div>
+        <div class="text-center px-4 relative z-10">
+            <div class="mb-8">
+                <div class="w-40 h-40 mx-auto mb-6 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center text-7xl font-bold border-4 border-white/30">
+                    KK
+                </div>
+            </div>
+            <h1 class="text-5xl md:text-7xl font-bold mb-4">Kutlwano Kuape</h1>
+            <p class="text-2xl md:text-3xl mb-2 font-light">Linux Systems Administrator |ML/AI engineer</p>
+            <p class="text-xl md:text-2xl mb-8 typing-animation font-medium" id="typing-text">Building Intelligent Solutions</p>
+            <div class="space-x-4 mb-8">
+                <a href="#projects" class="bg-white text-indigo-600 px-8 py-4 rounded-full font-semibold hover:bg-gray-100 transition duration-300 inline-flex items-center">
+                    <i class="fas fa-rocket mr-2"></i>View Projects
+                </a>
+                <a href="#contact" class="border-2 border-white px-8 py-4 rounded-full font-semibold hover:bg-white hover:text-indigo-600 transition duration-300 inline-flex items-center">
+                    <i class="fas fa-envelope mr-2"></i>Get In Touch
+                </a>
+            </div>
+            <div class="flex justify-center space-x-6">
+                <a href="#" class="text-white/80 hover:text-white text-2xl transition duration-300">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="text-white/80 hover:text-white text-2xl transition duration-300">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="#" class="text-white/80 hover:text-white text-2xl transition duration-300">
+                    <i class="fas fa-file-pdf"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 fade-in">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">About Me</h2>
+                <div class="w-20 h-1 ai-gradient mx-auto mb-6"></div>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Passionate AI/ML Engineer, Systems administrator with expertise in developing intelligent systems and data-driven solutions
+                </p>
+            </div>
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="fade-in">
+                    <div class="relative">
+                        <div class="w-80 h-80 mx-auto ai-gradient rounded-2xl flex items-center justify-center text-white text-8xl font-bold shadow-2xl">
+                            KK
+                        </div>
+                        <div class="absolute -bottom-4 -right-4 w-24 h-24 bg-yellow-400 rounded-full flex items-center justify-center text-2xl">
+                            🤖
+                        </div>
+                    </div>
+                </div>
+                <div class="fade-in">
+                    <h3 class="text-3xl font-bold text-gray-800 mb-6">Professional Biography</h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed text-lg">
+                        I'm a dedicated systems administrator, AI/ML Engineer with a passion for transforming complex data into actionable insights. 
+                        My expertise spans machine learning, deep learning, natural language processing, and computer vision. 
+                        I thrive on solving challenging problems and building scalable AI solutions that make a real-world impact.
+                    </p>
+                    
+                    <div class="mb-8">
+                        <h4 class="text-xl font-semibold text-gray-800 mb-4">Career Objectives</h4>
+                        <ul class="space-y-2 text-gray-600">
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-indigo-600 mt-1 mr-3"></i>
+                                Lead AI/ML initiatives in innovative technology companies
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-indigo-600 mt-1 mr-3"></i>
+                                Develop cutting-edge solutions in computer vision and NLP
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-indigo-600 mt-1 mr-3"></i>
+                                Contribute to open-source AI projects and research
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-indigo-600 mt-1 mr-3"></i>
+                                Mentor emerging talent in the AI/ML field
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="grid grid-cols-2 gap-6 mb-8">
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <h5 class="font-semibold text-gray-800 mb-2">Location</h5>
+                            <p class="text-gray-600">Available Globally (Remote)</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <h5 class="font-semibold text-gray-800 mb-2">Experience</h5>
+                            <p class="text-gray-600">4+ Years in Linux Systems administration</p>
+                        </div>
+                    </div>
+
+                    <div class="space-x-4">
+                        <a href="#" class="ai-gradient text-white px-6 py-3 rounded-lg hover:opacity-90 transition duration-300 inline-flex items-center">
+                            <i class="fas fa-download mr-2"></i>Download Resume
+                        </a>
+                        <a href="#projects" class="border-2 border-indigo-600 text-indigo-600 px-6 py-3 rounded-lg hover:bg-indigo-600 hover:text-white transition duration-300 inline-flex items-center">
+                            <i class="fas fa-eye mr-2"></i>View Portfolio
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 fade-in">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">Technical Skills & Competencies</h2>
+                <div class="w-20 h-1 ai-gradient mx-auto mb-6"></div>
+                <p class="text-xl text-gray-600">Comprehensive expertise across the AI/ML technology stack, Server/application administration</p>
+            </div>
+            
+            <!-- Core AI/ML Skills -->
+            <div class="grid lg:grid-cols-3 gap-8 mb-12">
+                <div class="bg-white p-8 rounded-xl shadow-lg card-hover fade-in">
+                    <div class="text-center mb-6">
+                        <div class="w-16 h-16 ai-gradient rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-brain text-white text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800">Machine Learning</h3>
+                    </div>
+                    <div class="space-y-4">
+                        <div class="skill-item">
+                            <div class="flex justify-between mb-2">
+                                <span class="text-gray-700 font-medium">Supervised Learning</span>
+                                <span class="text-gray-500">95%</span>
+                            </div>
+                            <div class="bg-gray-200 rounded-full h-3">
+                                <div class="skill-bar bg-gradient-to-r from-indigo-500 to-purple-600 h-3 rounded-full" style="width: 0%" data-width="95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="flex justify-between mb-2">
+                                <span class="text-gray-700 font-medium">Unsupervised Learning</span>
+                                <span class="text-gray-500">88%</span>
+                            </div>
+                            <div class="bg-gray-200 rounded-full h-3">
+                                <div class="skill-bar bg-gradient-to-r from-indigo-500 to-purple-600 h-3 rounded-full" style="width: 0%" data-width="88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="flex justify-between mb-2">
+                                <span class="text-gray-700 font-medium">Reinforcement Learning</span>
+                                <span class="text-gray-500">82%</span>
+                            </div>
+                            <div class="bg-gray-200 rounded-full h-3">
+                                <div class="skill-bar bg-gradient-to-r from-indigo-500 to-purple-600 h-3 rounded-full" style="width: 0%" data-width="82%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-lg card-hover fade-in">
+                    <div class="text-center mb-6">
+                        <div class="w-16 h-16 ai-gradient rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-network-wired text-white text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800">Deep Learning</h3>
+                    </div>
+                    <div class="space-y-4">
+                        <div class="skill-item">
+                            <div class="flex justify-between mb-2">
+                                <span class="text-gray-700 font-medium">Neural Networks</span>
+                                <span class="text-gray-500">92%</span>
+                            </div>
+                            <div class="bg-gray-200 rounded-full h-3">
+                                <div class="skill-bar bg-gradient-to-r from-purple-500 to-pink-600 h-3 rounded-full" style="width: 0%" data-width="92%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="flex justify-between mb-2">
+                                <span class="text-gray-700 font-medium">Computer Vision</span>
+                                <span class="text-gray-500">87%</span>
+                            </div>
+                            <div class="bg-gray-200 rounded-full h-3">
+                                <div class="skill-bar bg-gradient-to-r from-purple-500 to-pink-600 h-3 rounded-full" style="width: 0%" data-width="87%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="flex justify-between mb-2">
+                                <span class="text-gray-700 font-medium">NLP</span>
+                                <span class="text-gray-500">85%</span>
+                            </div>
+                            <div class="bg-gray-200 rounded-full h-3">
+                                <div class="skill-bar bg-gradient-to-r from-purple-500 to-pink-600 h-3 rounded-full" style="width: 0%" data-width="85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-lg card-hover fade-in">
+                    <div class="text-center mb-6">
+                        <div class="w-16 h-16 ai-gradient rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-chart-line text-white text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800">Data Science</h3>
+                    </div>
+                    <div class="space-y-4">
+                        <div class="skill-item">
+                            <div class="flex justify-between mb-2">
+                                <span class="text-gray-700 font-medium">Data Analysis</span>
+                                <span class="text-gray-500">94%</span>
+                            </div>
+                            <div class="bg-gray-200 rounded-full h-3">
+                                <div class="skill-bar bg-gradient-to-r from-green-500 to-blue-600 h-3 rounded-full" style="width: 0%" data-width="94%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="flex justify-between mb-2">
+                                <span class="text-gray-700 font-medium">Statistical Modeling</span>
+                                <span class="text-gray-500">89%</span>
+                            </div>
+                            <div class="bg-gray-200 rounded-full h-3">
+                                <div class="skill-bar bg-gradient-to-r from-green-500 to-blue-600 h-3 rounded-full" style="width: 0%" data-width="89%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="flex justify-between mb-2">
+                                <span class="text-gray-700 font-medium">Data Visualization</span>
+                                <span class="text-gray-500">91%</span>
+                            </div>
+                            <div class="bg-gray-200 rounded-full h-3">
+                                <div class="skill-bar bg-gradient-to-r from-green-500 to-blue-600 h-3 rounded-full" style="width: 0%" data-width="91%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Technology Stack -->
+            <div class="fade-in">
+                <h3 class="text-2xl font-bold text-gray-800 text-center mb-8">Technology Stack</h3>
+                <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+                    <div class="tech-badge p-4 rounded-lg text-center">
+                        <i class="fab fa-python text-3xl mb-2 text-blue-600"></i>
+                        <p class="font-semibold">Python</p>
+                    </div>
+                    <div class="tech-badge p-4 rounded-lg text-center">
+                        <i class="fas fa-brain text-3xl mb-2 text-orange-600"></i>
+                        <p class="font-semibold">TensorFlow</p>
+                    </div>
+                    <div class="tech-badge p-4 rounded-lg text-center">
+                        <i class="fas fa-chart-bar text-3xl mb-2 text-green-600"></i>
+                        <p class="font-semibold">Scikit-learn</p>
+                    </div>
+                    <div class="tech-badge p-4 rounded-lg text-center">
+                        <i class="fas fa-database text-3xl mb-2 text-purple-600"></i>
+                        <p class="font-semibold">SQL</p>
+                    </div>
+                    <div class="tech-badge p-4 rounded-lg text-center">
+                        <i class="fab fa-aws text-3xl mb-2 text-yellow-600"></i>
+                        <p class="font-semibold">AWS</p>
+                    </div>
+                    <div class="tech-badge p-4 rounded-lg text-center">
+                        <i class="fab fa-docker text-3xl mb-2 text-blue-500"></i>
+                        <p class="font-semibold">Docker</p>
+                    </div>
+                    <div class="tech-badge p-4 rounded-lg text-center">
+                        <i class="fab fa-git-alt text-3xl mb-2 text-gray-700"></i>
+                        <p class="font-semibold">Git</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 fade-in">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">Featured Projects</h2>
+                <div class="w-20 h-1 ai-gradient mx-auto mb-6"></div>
+                <p class="text-xl text-gray-600">Showcasing AI/ML solutions with live demonstrations</p>
+            </div>
+            
+            <div class="grid lg:grid-cols-3 gap-8">
+                <!-- Project 1: Computer Vision -->
+                <div class="project-card bg-white rounded-xl shadow-lg overflow-hidden card-hover fade-in relative">
+                    <div class="h-64 bg-gradient-to-br from-blue-400 via-purple-500 to-pink-500 flex items-center justify-center relative">
+                        <div class="text-white text-6xl">👁️</div>
+                        <div class="absolute top-4 right-4 bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full text-white text-sm font-semibold">
+                            Computer Vision
+                        </div>
+                    </div>
+                    <div class="project-overlay absolute inset-0 flex items-center justify-center">
+                        <div class="text-center text-white space-y-4">
+                            <button onclick="openDemo('cv-demo')" class="bg-white text-indigo-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">
+                                <i class="fas fa-play mr-2"></i>Live Demo
+                            </button>
+                            <div class="space-x-2">
+                                <button class="border-2 border-white px-4 py-2 rounded-lg font-semibold hover:bg-white hover:text-indigo-600 transition duration-300">
+                                    <i class="fab fa-github mr-2"></i>Code
+                                </button>
+                                <button class="border-2 border-white px-4 py-2 rounded-lg font-semibold hover:bg-white hover:text-indigo-600 transition duration-300">
+                                    <i class="fas fa-external-link-alt mr-2"></i>Deploy
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">AI Image Recognition System</h3>
+                        <p class="text-gray-600 mb-4">
+                            Advanced computer vision system using CNN and transfer learning for real-time object detection 
+                            and classification with 95% accuracy on custom datasets.
+                        </p>
+                        <div class="mb-4">
+                            <h4 class="font-semibold text-gray-800 mb-2">Key Features:</h4>
+                            <ul class="text-sm text-gray-600 space-y-1">
+                                <li>• Real-time object detection</li>
+                                <li>• Custom model training pipeline</li>
+                                <li>• REST API deployment</li>
+                                <li>• Performance monitoring</li>
+                            </ul>
+                        </div>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">Python</span>
+                            <span class="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm font-medium">TensorFlow</span>
+                            <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">OpenCV</span>
+                            <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-medium">Flask</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: NLP -->
+                <div class="project-card bg-white rounded-xl shadow-lg overflow-hidden card-hover fade-in relative">
+                    <div class="h-64 bg-gradient-to-br from-green-400 via-blue-500 to-purple-500 flex items-center justify-center relative">
+                        <div class="text-white text-6xl">🗣️</div>
+                        <div class="absolute top-4 right-4 bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full text-white text-sm font-semibold">
+                            NLP
+                        </div>
+                    </div>
+                    <div class="project-overlay absolute inset-0 flex items-center justify-center">
+                        <div class="text-center text-white space-y-4">
+                            <button onclick="openDemo('nlp-demo')" class="bg-white text-indigo-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">
+                                <i class="fas fa-play mr-2"></i>Live Demo
+                            </button>
+                            <div class="space-x-2">
+                                <button class="border-2 border-white px-4 py-2 rounded-lg font-semibold hover:bg-white hover:text-indigo-600 transition duration-300">
+                                    <i class="fab fa-github mr-2"></i>Code
+                                </button>
+                                <button class="border-2 border-white px-4 py-2 rounded-lg font-semibold hover:bg-white hover:text-indigo-600 transition duration-300">
+                                    <i class="fas fa-external-link-alt mr-2"></i>Deploy
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Intelligent Chatbot Platform</h3>
+                        <p class="text-gray-600 mb-4">
+                            Advanced NLP chatbot using transformer models and sentiment analysis for customer service 
+                            automation with multi-language support and context awareness.
+                        </p>
+                        <div class="mb-4">
+                            <h4 class="font-semibold text-gray-800 mb-2">Key Features:</h4>
+                            <ul class="text-sm text-gray-600 space-y-1">
+                                <li>• Multi-language support</li>
+                                <li>• Sentiment analysis</li>
+                                <li>• Context-aware responses</li>
+                                <li>• Integration APIs</li>
+                            </ul>
+                        </div>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">Python</span>
+                            <span class="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm font-medium">PyTorch</span>
+                            <span class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm font-medium">BERT</span>
+                            <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">FastAPI</span>
+                        </div>
+                    </div>
+                </div>
+    <!-- Experience Section -->
+    <section id="experience" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 fade-in">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">Professional Experience</h2>
+                <div class="w-20 h-1 ai-gradient mx-auto mb-6"></div>
+                <p class="text-xl text-gray-600">Career progression in systems admin, AI/ML and data science</p>
+            </div>
+            
+            <div class="max-w-4xl mx-auto">
+                <div class="space-y-8">
+                    <div class="timeline-item bg-white p-8 rounded-xl shadow-lg card-hover fade-in">
+                        <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between mb-4">
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-800">Systems administrator</h3>
+                                <p class="text-indigo-600 font-semibold text-lg">e4 strategic</p>
+                                <p class="text-gray-500">Hyde park, JHB (Remote)</p>
+                            </div>
+                            <div class="mt-2 lg:mt-0">
+                                <span class="bg-indigo-100 text-indigo-800 px-4 py-2 rounded-full font-semibold">2019 - 2023</span>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 leading-relaxed mb-4">
+                            Leading AI/ML initiatives for enterprise clients, developing scalable machine learning solutions 
+                            that process over 1M+ data points daily. Architected and deployed production ML systems with 
+                            99.9% uptime and reduced inference latency by 40%.
+                        </p>
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <div>
+                                <h4 class="font-semibold text-gray-800 mb-2">Key Achievements:</h4>
+                                <ul class="text-sm text-gray-600 space-y-1">
+                                    <li>• Improved model accuracy by 25%</li>
+                                    <li>• Led team of 5 ML engineers</li>
+                                    <li>• Reduced infrastructure costs by 30%</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-800 mb-2">Technologies:</h4>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs">Python</span>
+                                    <span class="bg-orange-100 text-orange-800 px-2 py-1 rounded text-xs">instructions</span>
+                                    <span class="bg-green-100 text-green-800 px-2 py-1 rounded text-xs">Kubernetes</span>
+                                    <span class="bg-purple-100 text-purple-800 px-2 py-1 rounded text-xs">Active directory</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Presentation/Showcase Section -->
+    <section id="presentation" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 fade-in">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">Capstone Showcase Presentation</h2>
+                <div class="w-20 h-1 ai-gradient mx-auto mb-6"></div>
+                <p class="text-xl text-gray-600">10-minute technical presentation highlighting key projects and expertise</p>
+            </div>
+
+            <!-- Presentation Controls -->
+            <div class="bg-gray-50 rounded-xl p-8 mb-8 fade-in">
+                <div class="flex justify-center items-center space-x-4 mb-6">
+                    <button onclick="previousSlide()" class="bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 transition duration-300">
+                        <i class="fas fa-chevron-left mr-2"></i>Previous
+                    </button>
+                    <span id="slide-counter" class="text-gray-600 font-semibold">1 / 5</span>
+                    <button onclick="nextSlide()" class="bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 transition duration-300">
+                        Next<i class="fas fa-chevron-right ml-2"></i>
+                    </button>
+                </div>
+
+                <!-- Slide 1: Introduction -->
+                <div id="slide-1" class="presentation-slide active">
+                    <div class="text-center">
+                        <div class="w-32 h-32 ai-gradient rounded-full flex items-center justify-center mx-auto mb-6 text-white text-4xl font-bold">
+                            KK
+                        </div>
+                        <h3 class="text-3xl font-bold text-gray-800 mb-4">Personal Introduction</h3>
+                        <p class="text-xl text-gray-600 mb-6 max-w-3xl mx-auto">
+                            Systems administrator with 4+ years of experience developing intelligent systems and data-driven solutions. 
+                            Passionate about transforming complex problems into scalable AI applications.
+                        </p>
+                        <div class="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+                            <div class="bg-white p-6 rounded-lg shadow-lg">
+                                <i class="fas fa-graduation-cap text-3xl text-indigo-600 mb-3"></i>
+                                <h4 class="font-semibold text-gray-800 mb-2">Education</h4>
+                                <p class="text-gray-600">Construction and Engineering drafting Computer Science <br>AI/ML Specialization</p>
+                            </div>
+                            <div class="bg-white p-6 rounded-lg shadow-lg">
+                                <i class="fas fa-briefcase text-3xl text-indigo-600 mb-3"></i>
+                                <h4 class="font-semibold text-gray-800 mb-2">Experience</h4>
+                                <p class="text-gray-600">3+ Years<br>AI/ML Engineering</p>
+                            </div>
+                            <div class="bg-white p-6 rounded-lg shadow-lg">
+                                <i class="fas fa-trophy text-3xl text-indigo-600 mb-3"></i>
+                                <h4 class="font-semibold text-gray-800 mb-2">Achievements</h4>
+                                <p class="text-gray-600">15+ Projects<br>500K+ Users Served</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2: Technical Background -->
+                <div id="slide-2" class="presentation-slide">
+                    <h3 class="text-3xl font-bold text-gray-800 mb-6 text-center">Technical Background</h3>
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div>
+                            <h4 class="text-xl font-semibold text-gray-800 mb-4">Core Competencies</h4>
+                            <div class="space-y-4">
+                                <div class="flex items-center">
+                                    <div class="w-4 h-4 ai-gradient rounded-full mr-3"></div>
+                                    <span class="text-gray-700">Machine Learning & Deep Learning</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <div class="w-4 h-4 ai-gradient rounded-full mr-3"></div>
+                                    <span class="text-gray-700">Computer Vision & NLP</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <div class="w-4 h-4 ai-gradient rounded-full mr-3"></div>
+                                    <span class="text-gray-700">Data Science & Analytics</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <div class="w-4 h-4 ai-gradient rounded-full mr-3"></div>
+                                    <span class="text-gray-700">MLOps & Production Deployment</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <h4 class="text-xl font-semibold text-gray-800 mb-4">Technology Stack</h4>
+                            <div class="grid grid-cols-3 gap-3">
+                                <div class="bg-blue-100 text-blue-800 px-3 py-2 rounded-lg text-center font-semibold">Python</div>
+                                <div class="bg-orange-100 text-orange-800 px-3 py-2 rounded-lg text-center font-semibold">TensorFlow</div>
+                                <div class="bg-red-100 text-red-800 px-3 py-2 rounded-lg text-center font-semibold">PyTorch</div>
+                                <div class="bg-green-100 text-green-800 px-3 py-2 rounded-lg text-center font-semibold">Scikit-learn</div>
+                                <div class="bg-purple-100 text-purple-800 px-3 py-2 rounded-lg text-center font-semibold">AWS</div>
+                                <div class="bg-yellow-100 text-yellow-800 px-3 py-2 rounded-lg text-center font-semibold">Docker</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3: Project Highlights -->
+                <div id="slide-3" class="presentation-slide">
+                    <h3 class="text-3xl font-bold text-gray-800 mb-6 text-center">Project Highlights</h3>
+                    <div class="grid md:grid-cols-3 gap-6">
+                        <div class="bg-white p-6 rounded-lg shadow-lg border-l-4 border-blue-500">
+                            <div class="text-4xl mb-3">👁️</div>
+                            <h4 class="text-lg font-semibold text-gray-800 mb-2">Computer Vision System</h4>
+                            <p class="text-gray-600 mb-3">Real-time object detection with 95% accuracy</p>
+                            <div class="text-sm text-gray-500">
+                                <strong>Impact:</strong> Processed 1M+ images daily
+                            </div>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow-lg border-l-4 border-green-500">
+                            <div class="text-4xl mb-3">🗣️</div>
+                            <h4 class="text-lg font-semibold text-gray-800 mb-2">NLP Chatbot</h4>
+                            <p class="text-gray-600 mb-3">Multi-language customer service automation</p>
+                            <div class="text-sm text-gray-500">
+                                <strong>Impact:</strong> 40% reduction in response time
+                            </div>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow-lg border-l-4 border-purple-500">
+                            <div class="text-4xl mb-3">📈</div>
+                            <h4 class="text-lg font-semibold text-gray-800 mb-2">Predictive Analytics</h4>
+                            <p class="text-gray-600 mb-3">Financial market prediction engine</p>
+                            <div class="text-sm text-gray-500">
+                                <strong>Impact:</strong> 87% prediction accuracy
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 4: Technical Deep-dive -->
+                <div id="slide-4" class="presentation-slide">
+                    <h3 class="text-3xl font-bold text-gray-800 mb-6 text-center">Technical Deep-dive</h3>
+                    <div class="bg-white p-6 rounded-lg shadow-lg">
+                        <h4 class="text-xl font-semibold text-gray-800 mb-4">AI Image Recognition System Architecture</h4>
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div>
+                                <h5 class="font-semibold text-gray-800 mb-3">Model Architecture</h5>
+                                <div class="code-block text-sm">
+                                    <pre>Input Layer (224x224x3)</pre>
+                                </div>
+                            </div>
+                            <div>
+                                <h5 class="font-semibold text-gray-800 mb-3">Performance Metrics</h5>
+                                <div class="space-y-3">
+                                    <div class="flex justify-between">
+                                        <span>Accuracy:</span>
+                                        <span class="font-semibold text-green-600">95.2%</span>
+                                    </div>
+                                    <div class="flex justify-between">
+                                        <span>Precision:</span>
+                                        <span class="font-semibold text-green-600">94.8%</span>
+                                    </div>
+                                    <div class="flex justify-between">
+                                        <span>Recall:</span>
+                                        <span class="font-semibold text-green-600">95.1%</span>
+                                    </div>
+                                    <div class="flex justify-between">
+                                        <span>Inference Time:</span>
+                                        <span class="font-semibold text-blue-600">23ms</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 5: Future Plans -->
+                <div id="slide-5" class="presentation-slide">
+                    <h3 class="text-3xl font-bold text-gray-800 mb-6 text-center">Future Learning & Development</h3>
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div>
+                            <h4 class="text-xl font-semibold text-gray-800 mb-4">Short-term Goals (6 months)</h4>
+                            <ul class="space-y-3">
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-green-600 mt-1 mr-3"></i>
+                                    <span class="text-gray-700">Master advanced transformer architectures</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-green-600 mt-1 mr-3"></i>
+                                    <span class="text-gray-700">Obtain AWS ML Specialty certification</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-green-600 mt-1 mr-3"></i>
+                                    <span class="text-gray-700">Contribute to open-source ML projects</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-green-600 mt-1 mr-3"></i>
+                                    <span class="text-gray-700">Publish research paper on computer vision</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="text-xl font-semibold text-gray-800 mb-4">Long-term Vision (2+ years)</h4>
+                            <ul class="space-y-3">
+                                <li class="flex items-start">
+                                    <i class="fas fa-star text-yellow-600 mt-1 mr-3"></i>
+                                    <span class="text-gray-700">Lead AI research team in Fortune 500 company</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-star text-yellow-600 mt-1 mr-3"></i>
+                                    <span class="text-gray-700">Develop breakthrough AI applications</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-star text-yellow-600 mt-1 mr-3"></i>
+                                    <span class="text-gray-700">Establish AI consultancy practice</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-star text-yellow-600 mt-1 mr-3"></i>
+                                    <span class="text-gray-700">Mentor next generation of AI engineers</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mt-8 text-center">
+                        <div class="ai-gradient text-white px-8 py-4 rounded-lg inline-block">
+                            <h5 class="text-lg font-semibold mb-2">Personal Branding Statement</h5>
+                            <p class="text-lg">
+                                "Transforming complex data into intelligent solutions that drive innovation and create meaningful impact"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Live Demo Modals -->
+    <div id="demo-modal" class="fixed inset-0 bg-black bg-opacity-50 z-50 hidden flex items-center justify-center p-4">
+        <div class="bg-white rounded-xl max-w-4xl w-full max-h-[90vh] overflow-y-auto">
+            <div class="p-6 border-b">
+                <div class="flex justify-between items-center">
+                    <h3 id="demo-title" class="text-2xl font-bold text-gray-800">Project Demo</h3>
+                    <button onclick="closeDemo()" class="text-gray-500 hover:text-gray-700">
+                        <i class="fas fa-times text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+            <div id="demo-content" class="p-6">
+                <!-- Demo content will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 fade-in">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">Let's Connect</h2>
+                <div class="w-20 h-1 ai-gradient mx-auto mb-6"></div>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Ready to discuss AI/ML opportunities and innovative projects. Let's build the future together!
+                </p>
+            </div>
+            
+            <div class="grid lg:grid-cols-2 gap-12">
+                <div class="fade-in">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-6">Professional Contact</h3>
+                    <div class="space-y-6">
+                        <div class="flex items-center p-4 bg-white rounded-lg shadow-lg">
+                            <div class="w-12 h-12 ai-gradient rounded-lg flex items-center justify-center mr-4">
+                                <i class="fas fa-envelope text-white text-xl"></i>
+                            </div>
+                            <div>
+                                <p class="font-semibold text-gray-800">Email</p>
+                                <p class="text-gray-600">chestakutlwano@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center p-4 bg-white rounded-lg shadow-lg">
+                            <div class="w-12 h-12 ai-gradient rounded-lg flex items-center justify-center mr-4">
+                                <i class="fab fa-linkedin text-white text-xl"></i>
+                            </div>
+                            <div>
+                                <p class="font-semibold text-gray-800">LinkedIn</p>
+                                <p class="text-gray-600">linkedin.com/in/kutlwano-kuape</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center p-4 bg-white rounded-lg shadow-lg">
+                            <div class="w-12 h-12 ai-gradient rounded-lg flex items-center justify-center mr-4">
+                                <i class="fab fa-github text-white text-xl"></i>
+                            </div>
+                            <div>
+                                <p class="font-semibold text-gray-800">GitHub</p>
+                                <p class="text-gray-600">github.com/kutlwano-kuape</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center p-4 bg-white rounded-lg shadow-lg">
+                            <div class="w-12 h-12 ai-gradient rounded-lg flex items-center justify-center mr-4">
+                                <i class="fas fa-globe text-white text-xl"></i>
+                            </div>
+                            <div>
+                                <p class="font-semibold text-gray-800">Portfolio</p>
+                                <p class="text-gray-600">kutlwano-kuape.dev</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Job Application Strategy -->
+                    <div class="mt-8 bg-white p-6 rounded-lg shadow-lg">
+                        <h4 class="text-lg font-semibold text-gray-800 mb-4">
+                            <i class="fas fa-briefcase mr-2 text-indigo-600"></i>Job Application Strategy
+                        </h4>
+                        <ul class="space-y-2 text-gray-600">
+                            <li>• Targeting AI/ML Engineer and Data Scientist roles</li>
+                            <li>• Focus on companies with strong AI/ML initiatives</li>
+                            <li>• Emphasizing production ML experience and scalability</li>
+                            <li>• Highlighting cross-functional collaboration skills</li>
+                            <li>• Showcasing continuous learning and adaptation</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="fade-in">
+                    <form id="contact-form" class="bg-white p-8 rounded-xl shadow-lg">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-6">Send Message</h3>
+                        <div class="space-y-6">
+                            <div>
+                                <label class="block text-gray-700 font-semibold mb-2">Name</label>
+                                <input type="text" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-indigo-600 transition duration-300" placeholder="Your Name" id="name" required>
+                            </div>
+                            <div>
+                                <label class="block text-gray-700 font-semibold mb-2">Email</label>
+                                <input type="email" id="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-indigo-600 transition duration-300" placeholder="your@email.com" required>
+                            </div>
+                            <div>
+                                <label class="block text-gray-700 font-semibold mb-2">Subject</label>
+                                <select class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-indigo-600 transition duration-300" id="Subject" required>
+                                    <option value="">Select a topic</option>
+                                    <option value="job-opportunity">Job Opportunity</option>
+                                    <option value="collaboration">Collaboration</option>
+                                    <option value="consultation">Consultation</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="block text-gray-700 font-semibold mb-2">Message</label>
+                                <textarea rows="5" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-indigo-600 transition duration-300" placeholder="Tell me about your project or opportunity..." id="message"></textarea>
+                            </div>
+                            <button type="submit" class="w-full ai-gradient text-white py-3 rounded-lg font-semibold hover:opacity-90 transition duration-300">
+                                <i class="fas fa-paper-plane mr-2"></i>Send Message
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <div class="w-10 h-10 ai-gradient rounded-lg flex items-center justify-center text-white font-bold">
+                            KK
+                        </div>
+                        <span class="text-xl font-bold">Kutlwano Kuape</span>
+                    </div>
+                    <p class="text-gray-400">
+                        AI/ML Engineer passionate about building intelligent solutions that make a difference.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#about" class="hover:text-white transition duration-300">About</a></li>
+                        <li><a href="#projects" class="hover:text-white transition duration-300">Projects</a></li>
+                        <li><a href="#experience" class="hover:text-white transition duration-300">Experience</a></li>
+                        <li><a href="#contact" class="hover:text-white transition duration-300">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Connect</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 bg-gray-700 rounded-lg flex items-center justify-center hover:bg-indigo-600 transition duration-300">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-700 rounded-lg flex items-center justify-center hover:bg-gray-600 transition duration-300">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-700 rounded-lg flex items-center justify-center hover:bg-red-600 transition duration-300">
+                            <i class="fas fa-file-pdf"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 pt-8 text-center">
+                <p class="text-gray-400">&copy; 2024 Kutlwano Kuape. All rights reserved.</p>
+                <p class="text-gray-500 mt-2">Built with passion for AI/ML innovation</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+    </body>
+</html>
